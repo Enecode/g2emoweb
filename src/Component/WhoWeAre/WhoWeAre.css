@@ -1,0 +1,51 @@
+.who-we-are-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px; 
+  }
+  
+  .who-we-are-section {
+    width: 45%;
+    margin: 10px;
+  }
+  
+  .who-we-are-content {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .who-we-are-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  .who-we-are-description {
+    width: 100%;
+    /* padding: 0 20px; */
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .section-title {
+    color: #FFC000;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 145.833% */
+  }
+
+  @media (max-width: 768px) {
+    .who-we-are-section {
+      width: 100%;
+    }
+  
+    .who-we-are-description {
+      width: 100%;
+      padding: 0;
+    }
+  }

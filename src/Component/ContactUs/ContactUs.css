@@ -1,0 +1,226 @@
+/* Add these styles to your existing stylesheet or create a new one */
+
+.contact-us-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin: 20px; /* Adjust margin as needed */
+}
+
+.contact-form {
+  border-radius: 10px;
+  background: #FFC000;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #000000;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+textarea,
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #848482;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 30%;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-info {
+  /* width: 100%; */
+  max-width: 600px;
+  padding: 75px;
+  border-radius: 10px;
+  background: #FFC000;
+  margin-left: 45px;
+}
+
+.info-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  padding: 12px;
+}
+
+.info-text {
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 100% */
+  margin-bottom: 10px;
+}
+
+.email-address {
+  background: #FFF;
+  padding: 6px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.address-info{
+  background: #FFF;
+  padding: 6px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.info-title {
+  margin-bottom: 5px;
+  color: #000;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.info-link {
+  text-decoration: none;
+  color: #000000;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.form-group input,
+.form-group textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.form-group input[type="submit"] {
+  cursor: pointer;
+  background-color: #ffc000;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+/* Social Media Icons */
+
+
+.social-title{
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 100% */
+}
+.social-media {
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  border-radius: 15px;
+  background: #FFF;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.phone-number{
+  background: #FFF;
+  padding: 6px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: Inter;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .contact-us-container {
+    flex-direction: column;
+  }
+
+  .contact-form,
+  .contact-info {
+    width: 100%;
+    /* max-width: none; */
+  }
+
+  .contact-info {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 76%;
+    max-width: none;
+  }
+  .contact-form{
+    width: 122%;
+  }
+}

@@ -1,0 +1,51 @@
+/* Add these styles to your existing stylesheet or create a new one */
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px; /* Adjust margin as needed */
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+  
+  .about-section {
+    width: 30%;
+    margin: 10px;
+    /* text-align: center; */
+  }
+  
+  .about-image {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10%;
+    padding: 10px;
+  }
+  
+  .about-title {
+    color: #FFC000;
+    /* font-family: Inter; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 70px; */
+  }
+  
+  .about-description {
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 97.222% */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .about-section {
+      width: 100%;
+    }
+  }
+  
